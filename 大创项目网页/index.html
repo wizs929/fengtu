@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方寸之间览风土</title>
+    <link rel="stylesheet" href="./map.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <style type="text/css">
+        *{
+            margin:0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body background="./图片/背景图.png"
+    style="background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;">
+    <div class="header">
+        <div style="position:absolute;left: 0;">
+            <div class="name" style="font-family: '华文行楷';font-size: 30px;">览风土</div>
+        </div>
+        
+        
+        <div class="menu">
+            <img src="./图片/首页.svg" style="height: 40px; width: auto;" class="top1">
+            <a href="#firstpage"><span class="headtext" >首页</span></a>
+        </div>
+        
+        <span style="font-size: 20px;color: brown;">|</span>
+        
+        
+        <div class="menu">
+            <img src="./导航栏icon图标/可视化.ico" style="height: 70px; width: auto;">
+            <a href="#visiblepage"><span class="headtext">民俗可视化</span></a>
+        </div>
+        <span style="font-size: 20px;color: grey;">|</span>
+        
+            <div class="menu">
+                <img src="./导航栏icon图标/地图.ico" style="height: 70px; width: auto;">
+                <a href="#map-section"><span class="headtext">民俗地图</span></a>
+            </div>
+        
+        <span style="font-size: 20px;color: grey;">|</span>
+        
+        
+            <div class="menu">
+                <img src="./导航栏icon图标/产品.ico" style="height: 70px; width: auto;">
+                <a href="#productpage"><span class="headtext">特色产品</span></a>
+            </div>
+        
+        <span style="font-size: 20px;color: grey;">|</span>
+        
+        
+            <div class="menu">
+                <img src="./导航栏icon图标/关于我们.ico" style="height: 60px; width: auto;">
+                <a href="#aboutpage"><span class="headtext">关于我们</span></a>
+            </div>   
+    </div>
+    <script>
+        var long=innerHeight
+        top1.onclick=function(){
+            window.scrollTo(0,0)
+        }
+    </script>
+    <div class="homepage"  id="firstpage">
+        <img src="./首页.png" style="width: 100%;">
+    </div>
+
+    
+    <div class="introduction">
+        <div class="text1">
+            <p>Platform Introduction</p>
+            <p style="font-size: 3rem;">平台简介</p>
+        </div>
+        
+        <div style="width: 40%;display: flex;flex-direction: column;">
+            <div class="pictures">
+                <img src="./图片/图片1.png" alt="" class="pictures_img">
+                <div class="inside">
+                    <a href="./page1.html"><span class="word">&nbsp;固原砖雕  >>>  </span></a>
+                </div>
+            </div>
+            <div class="pictures">
+                <img src="./图片/2-1.png" alt="" class="pictures_img">
+                <div class="inside">
+                    <a href="./page2.html"><span class="word">&nbsp;回乡刺绣  >>>  </span></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text1-1">&nbsp;&nbsp;&nbsp;&nbsp;“秦壁大篇怡曲韵，凉风送爽绕天涯。”，“锦缥细展墨花翻，河东二柳敦煌索。”，“瓶开枸杞悬泉水，鼎炼芙蓉伙火沙。”……一方水土养一方人，祖国西北大地滋养出的人们吹着热烈豪放的风，粗粝的双手在黄土地中种出最滋补的果子，唱着最高昂的调子，闹着最火热的节日。
+            古时的烈风只带起散落的诗句，而今日我们在互联网的快车道上，立足西北大地的独特民俗文化，通过数据搜集、数据库搭建、访谈调研搜集陕甘宁县域民俗文化资料，运用可视化呈现的方式将生动热烈的民俗文化铺展，巧借创新活水，为民俗文化传播赋能。
+        </div>
+    </div>
+    <div class="visible" id="visiblepage">
+        <div class="text2">
+            <p>Folk Visualisation</p>
+        </div>
+        <p style="font-size: 3rem;color: #a3083f;margin-left: 4rem;">民俗可视化</p>
+        <div class="visualcard">
+            <div class="visualisation">
+                <div style="width: 50%;margin-top: 3%;">
+                    <img src="./图片/可视化1.png">
+                </div>
+                <div style="width: 100%;margin-left: 9%;margin-top: 2rem;">
+                    <div class="flourish-embed flourish-parliament" data-src="visualisation/15847857"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                </div>
+                <div style="width: 100%;margin-top: 2rem;">
+                    <div class="flourish-embed flourish-hierarchy" data-src="visualisation/15847975"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                </div>
+            </div>
+            <div class="words">
+                <div class="word_1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们对收集到的陕甘宁民俗文化数据进行了可视化的数据分析，从左图一的词云图可以看出，陕甘宁地区特色民俗文化种类繁多、形式多样，不仅包括手工艺品、美食、传统节日，还包括了建筑、音乐、服饰等等，十分具有传承意义。
+                </div>
+                <div class="word_1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;左图二是对收集到的民俗文化数据进行的分类统计。我们对其进行分类，共有20类民俗文化，涵盖了衣食住行多个方面，其中工商业特色民俗较多，共有55个；饮食方面次之，共有28个。其他具体数据都在途中有所体现。
+                </div>
+                <div class="word_1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;左图三是对甘肃省民俗文化汇总的树状图，一级分支为地级市，二级分支是区县，数字代表此区县共有多少种特色民俗。
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <section id="map-section">
+        <header>
+            <div>Folk Map</div>
+            <div>民俗地图</div>
+        </header>
+        <main>
+            <!-- <img src="./assets/1.png" alt=""> -->
+            <div class="flourish-embed flourish-map" data-src="visualisation/15828089">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+            <div>
+                <div>
+                    <span>了解更多>></span>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="side">
+                            <span>了解详情</span>
+                            <span>>>><span>
+                        </div>
+                        <img src="./图片/宁夏小曲.jpg" style="position: absolute;top: -20%;left: 0;width: 100%;transition: all .5s;" class="cardimg">
+                    </div>
+                    <div class="card">
+                        <div class="side">
+                            <span>>>><span>
+                        </div>
+                        <img src="./图片/莲花池祭祀.jpeg" style="position: absolute;top: 0;left: 0;height: 100%;transition: all .5s;" class="cardimg">
+                    </div>
+                    <div class="card">
+                        <div class="side">
+                            <a href="./page4.html" style="color: white;"><span>>>><span></a>
+                        </div>
+                        <img src="./图片/4-3.jpeg" style="height:120%;position: absolute;top: -5%;left: -10%;width: 100%;transition: all .5s;" class="cardimg">
+                    </div>
+                    <div class="card">
+                        <div class="side">
+                            <a href="./page3.html" style="color: white;"><span>>>><span></a>
+                        </div>
+                        <img src="./图片/石嘴山刺绣.png" style="position: absolute;top: 0;left: -20%;height: 100%;transition: all .5s;" class="cardimg">
+                    </div>
+                    <div class="card">
+                        <div class="side">
+                            <span>>>><span>
+                        </div>
+                        <img src="./图片/擀毡.png" style="position: absolute;top: 0;left: 0;height: 100%;transition: all .5s;" class="cardimg">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <div class="production" id="productpage">
+        <div class="text2">
+            <p>Featured</p>
+            
+            <span style="color: #a3083f;font-size: 1.5rem;margin-left: auto;margin-right: 15%;">了解更多> > ></span>
+        </div>
+        <p style="font-size: 3rem;color: #a3083f;margin-left: 4rem;">特色产品</p>    
+        <div class="productioncard">
+            <div class="productcard">
+                <div class="production_img">
+                    <img src="./图片/八宝茶.webp" alt="">
+                </div>
+                
+                <div class="inside2">
+                    <span class="word">八宝茶</span>
+                    <div class="word2">了解详情</div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="production_img"> <img src="./图片/枸杞.jpeg" alt="" ></div>
+               
+                <div class="inside2">
+                    <span class="word">中宁枸杞</span>
+                    <div class="word2">了解详情</div>
+                </div>
+            </div>
+            <div class="productcard">
+                <div class="production_img">
+                    <img src="./图片/灰枣.jpg" alt="">
+
+                </div>
+                <div class="inside2">
+                    <span class="word">灰枣</span>
+                    <div class="word2">了解详情</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="media" >
+        <div class="text2">
+            Folk Video
+        </div>
+        <p style="font-size: 3rem;color: #a3083f;text-align: left;margin-left: 64px;margin-bottom: 3rem;">民俗文化访谈</p>
+        <video  controls>
+            <source src="https://cloud.tiaozhan.com/f/qjhX/4ff3ad810a6b6045106771bce87b238b.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="about" id="aboutpage">
+        <div class="text2">
+            <p>About us</p>
+        </div>
+        <p style="font-size: 3rem;color: #a3083f;margin-left: 4rem;">关于我们</p>
+        <div class="aboutimg">
+            <img src="./图片/关于我们.png" style="width: 40%;margin-top: 5%;">
+            <div class="abouttext">
+                <div style="color: white;width: 85%;margin-left: 7.5%;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;方寸之间览风土是一个由西安交通大学网络与新媒体专业的五名同学搭建的陕甘宁县域民俗文化传播平台，意在借助互联网技术，使民俗文化得以摆脱其在现实中传播的时间、空间的局限性。<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;通过创意设计和技术实现，将民俗文化转化为具有视觉冲击力和艺术感染力的可视化作品，并依托视觉呈现尝试引流当地特色农产品，使其落地为促进经济增长、提高人民生活水平的有效途径。在提高陕甘宁民俗文化的传播度和影响力的同时，为其注入新的生命力和时代价值。
+                </div>
+            </div>
+        </div>
+        
+    </div>  
+</body>
+</html>

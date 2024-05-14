@@ -1,0 +1,342 @@
+.header{
+    z-index: 9999;
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    margin-right: 1rem;
+    justify-content: center;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.headtext{
+    font-size: 20px;
+    color: grey;
+    transition: all.3s;
+    text-wrap: nowrap;
+}
+.headtext:hover{
+    cursor: pointer;
+    font-size: 22px;
+    color: #a3083f;
+    transition: all.3s;
+}
+.name{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    color: #a3083f;
+
+}
+.introduction{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.text1{
+    width: 25%;
+    font-size: 2rem;
+    color: #a3083f;
+    margin-left: 40%;
+    margin-top: 60px;
+}
+.text1-1{
+    width:40%;
+    font-size: 1.3rem;
+    line-height: 3.5rem;
+    height: fit-content;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: 10%;
+    border-radius: 5px;
+    box-shadow:
+  1.5px 1.4px 2.2px rgba(0, 0, 0, 0.031),
+  3.7px 3.4px 5.3px rgba(0, 0, 0, 0.044),
+  7px 6.4px 10px rgba(0, 0, 0, 0.055),
+  12.5px 11.4px 17.9px rgba(0, 0, 0, 0.066),
+  23.4px 21.3px 33.4px rgba(0, 0, 0, 0.079),
+  56px 51px 80px rgba(0, 0, 0, 0.11)
+}
+.text2{
+    font-size: 2rem;
+    color: #a3083f;
+    margin-top: 5%;
+    margin-left: 4rem;
+    display: flex;
+}
+.pictures{
+    width: 73%;
+    height: 300px;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    position: relative;
+    overflow: hidden;
+}
+.pictures_img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    transition: all .5s;
+}
+.pictures:hover .pictures_img{
+    transform: scale(1.05);
+    transition: all .5s;
+}
+.inside{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    background-color: rgb(85,85,85,0);
+    transition: all 0.5s;
+    letter-spacing: 1px;
+}
+.inside:hover{
+    transition: all 0.5s;   
+}
+.inside span{
+    color: white;
+    font-size: 25px;
+    height: 45px;
+    display: block;
+}
+.word{
+    background-color: #a3083f;
+    position: relative;
+    margin-bottom: 300px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.visualcard{
+    width: 100%;
+    display: flex;
+}
+.visualisation{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 7%;
+}
+.word_1{
+    margin-top: 3rem;
+    width: 50%;
+    height: 22%;
+    display: flex;
+    align-items: center;
+    background-color: #a3083eb4;
+    backdrop-filter: blur(3px);
+    color: white;
+    font-size: 25px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    line-height: 2.5rem;
+    border-radius: 5px;
+    box-shadow:
+  1.5px 1.4px 2.2px rgba(0, 0, 0, 0.031),
+  3.7px 3.4px 5.3px rgba(0, 0, 0, 0.044),
+  7px 6.4px 10px rgba(0, 0, 0, 0.055),
+  12.5px 11.4px 17.9px rgba(0, 0, 0, 0.066),
+  23.4px 21.3px 33.4px rgba(0, 0, 0, 0.079),
+  56px 51px 80px rgba(0, 0, 0, 0.11)
+}
+.productioncard{
+    margin-left: 3.8%; 
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    gap:7%;
+    height: 100%;
+    justify-content: center;
+}
+.productcard{
+    width: 22%;
+    height: 70%;
+    position: relative;
+}
+.inside2{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    background-color: rgb(85,85,85,0);
+    transition: all 0.5s;
+    letter-spacing: 1px;
+}
+.inside2 span{
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+
+    background-color: #a3083f;
+    width: 100%;
+    height: 50px;
+}
+.word{
+    background-color: #a3083f;
+    position: relative;
+    margin-bottom: 300px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.production{
+    height: 800px;
+    position: relative;
+}
+.production_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all .5s;
+    overflow: hidden;
+    
+
+}
+.production_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.word2{
+    display: flex;
+    font-size: 1.1rem;
+    margin-left: 18%;
+    width: 65%;
+    height: 13%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #a3083f;
+    border-radius: 50px;
+    transition: all.3s;
+}
+.word2:hover{
+    font-size: 1.3rem;
+}
+.abouttext{
+    margin-top: 6%;
+    width: 40%;
+    height:fit-content;
+    margin-right: 10%;
+    margin-left: auto;
+    background-color: #a3083f;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+.aboutimg{
+    display: flex;
+}
+.video{
+    width:80%;
+    text-align: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.media{
+    text-align: center;
+    align-items: center;
+}
+
+
+.zhuandiao_1{
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.img_1{
+    padding-left: 2%;
+    width: 50%;
+}
+.text_1{
+    text-align: center;
+    font-size: 8rem;
+    width: 50%;
+}
+.zhuandiao_2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.text_2{
+    width: 52%;
+    margin-top: 3rem;
+    margin-left: 2%;
+
+}
+.content_1{
+    border-radius: 5px;
+    box-shadow:
+  1.5px 1.4px 2.2px rgba(0, 0, 0, 0.031),
+  3.7px 3.4px 5.3px rgba(0, 0, 0, 0.044),
+  7px 6.4px 10px rgba(0, 0, 0, 0.055),
+  12.5px 11.4px 17.9px rgba(0, 0, 0, 0.066),
+  23.4px 21.3px 33.4px rgba(0, 0, 0, 0.079),
+  56px 51px 80px rgba(0, 0, 0, 0.11)
+}
+.img_2{
+    align-items: center;
+    padding-left: 10%;
+    width: 50%;
+    padding-top: 9%;
+}
+.content_2{
+    display: flex;
+
+}
+.zhuandiao_3{
+    margin-top: 3rem;
+}
+.text_3{
+    width: 52%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.img_3{
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+
+    width: 50%;
+    padding-top: 9%;
+}
+.content_3{
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-right: 5%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
